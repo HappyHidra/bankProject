@@ -53,9 +53,10 @@ export default function getHeader(currentPage) {
   mount(header, headerh2);
 
   // login page
-  // if (currentPage === '/') {
-  //   return header;
-  // }
+  if (currentPage === '/') {
+    mount(containerFluid, header);
+    return containerFluid;
+  }
 
   // account page
   if (currentPage === '/account') {
