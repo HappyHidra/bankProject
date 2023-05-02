@@ -1,0 +1,72 @@
+.login-container {
+  margin-top: 262px;
+  margin-bottom: 296px;
+}
+
+.form-wrapper {
+  flex-wrap: wrap;
+  padding: 50px 85px 50px 40px;
+  display: flex;
+  width: 500px;
+  height: 366px;
+  border-radius: 50px;
+  background-color: #f3f4f6;
+  justify-content: center;
+  align-content: center;
+
+  .form-group {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    label {
+      font-family: 'Ubuntu';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 20px;
+      text-align: right;
+      letter-spacing: -0.01em;
+      color: #182233;
+      margin-right: 18px;
+    }
+
+    input {
+      width: 300px;
+    }
+  }
+
+  h1 {
+    margin: 0;
+    margin-bottom: 35px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: -0.02em;
+    color: #000000;
+  }
+
+  button {
+    padding: 14px 21px;
+    margin-left: 67px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #116acc;
+    border-radius: 7px;
+  }
+}
+
+.form-group:not(:last-child) {
+  margin-bottom: 25px;
+}
+
+.form-group:last-child {
+  margin-bottom: 30px;
+}

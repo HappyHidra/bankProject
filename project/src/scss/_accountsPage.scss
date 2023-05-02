@@ -1,0 +1,110 @@
+.your-bills-container {
+  min-width: 100%;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.your-bills {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 53px 0 57px 0;
+}
+
+.your-bills-title {
+  margin-right: 35px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+
+.bills-dropdown {
+  flex-grow: 1;
+}
+
+#sortMenuButton {
+  width: 234px;
+  border: 1px solid #116acc;
+}
+
+.bills-body {
+  padding: 22px;
+}
+
+.bills-title {
+  margin-bottom: 9px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #182233;
+  letter-spacing: -0.01em;
+}
+
+.bills-text {
+  margin-bottom: 31px;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #182233;
+}
+
+.bills-desrc {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+
+.bills-btn-flex {
+  display: flex;
+  align-items: flex-end;
+}
+
+.bills-btn {
+  padding: 16px 24px;
+  background: #116acc;
+  border-radius: 7px;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.01em;
+  color: #ffffff;
+}
+
+.createNewBillBtn {
+  display: flex;
+  justify-content: flex-end;
+  padding: 16px 24px 16px 24px;
+  border-radius: 7px;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.01em;
+}
+
+.card-rows {
+  width: 400px;
+  padding: 0;
+  margin-bottom: 50px;
+}
+
+.card-rows:not(:nth-child(3n)) {
+  margin-right: 70px;
+}

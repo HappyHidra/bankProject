@@ -1,0 +1,42 @@
+.header {
+  display: flex;
+  padding: 25px 50px 25px 50px;
+  background-color: #116acc;
+  justify-content: space-between;
+  // margin-bottom: 262px;
+  h2 {
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 56px;
+    color: #ffffff;
+  }
+}
+
+.menu-list {
+  display: flex;
+  list-style: none;
+  margin-bottom: 0;
+}
+
+.menu-btn {
+  background: #ffffff;
+  padding: 16px 24px;
+  border: 2px solid #116acc;
+  border-radius: 7px;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.01em;
+  color: #116acc;
+}
+
+.menu-btn:not(:last-child) {
+  margin-right: 25px;
+}
