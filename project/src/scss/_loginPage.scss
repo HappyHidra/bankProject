@@ -13,11 +13,27 @@
   background-color: #f3f4f6;
   justify-content: center;
   align-content: center;
+  user-select: none;
+
+  #login-info {
+    position: absolute;
+    top: 36px;
+    left: 0;
+    user-select: none;
+  }
+
+  #password-info {
+    position: absolute;
+    top: 36px;
+    left: 0;
+    user-select: none;
+  }
 
   .form-group {
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    position: relative;
 
     label {
       font-family: 'Ubuntu';

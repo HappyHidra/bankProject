@@ -41,10 +41,8 @@ export default function () {
   const formWrapper = el('div', { class: 'form-wrapper' });
   const form = el('form', { class: 'form' }, [
     el('h1', 'Вход в аккаунт'),
-    el('div', { class: ['form-group'] }, loginLabel, login),
-    loginInfo,
-    el('div', { class: ['form-group'] }, passwordLabel, password),
-    passwordInfo,
+    el('div', { class: ['form-group'] }, loginLabel, login, loginInfo),
+    el('div', { class: ['form-group'] }, passwordLabel, password, passwordInfo),
     loginBtn,
     el('div', { class: 'errors errors__input' }),
   ]);
@@ -89,8 +87,7 @@ export default function () {
           login.classList.remove('is-invalid');
           login.classList.add('is-valid');
         } else {
-          errors[e.target.name] =
-            'Длина должна быть больше 6, без пробельных символов';
+          errors[e.target.name] = 'Длина больше 6, без пробельных символов';
           login.classList.remove('is-valid');
           login.classList.add('is-invalid');
         }
@@ -103,8 +100,7 @@ export default function () {
           password.classList.remove('is-invalid');
           password.classList.add('is-valid');
         } else {
-          errors[e.target.name] =
-            'Длина должна быть больше 6, без пробельных символов';
+          errors[e.target.name] = 'Длина больше 6, без пробельных символов';
           password.classList.remove('is-valid');
           password.classList.add('is-invalid');
         }
